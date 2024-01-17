@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /blog/          # Disallow crawling of pages under the /admin/ directory
+Disallow: /private-page/  # Disallow crawling of the specific /private-page/
+Disallow: /secret.html    # Disallow crawling of the specific /secret.html page
+
+Allow: /public/           # Allow crawling of pages under the /public/ directory
+Allow: /index.html
